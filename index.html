@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Waheed Oladunjoye | Technical Support Engineer, Payments &amp; Transaction Switching</title>
+<meta name="description" content="Technical Support Engineer with 6+ years supporting enterprise fintech platforms: ATM/POS transaction switching, ISO 8583, L2/L3 incident management, SQL and Linux. Based in Lagos, Nigeria.">
+<meta property="og:title" content="Waheed Oladunjoye | Technical Support Engineer">
+<meta property="og:description" content="L2/L3 support for payment switching, core banking and settlement platforms.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230B7A4B'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='700' font-size='17' text-anchor='middle' fill='white'%3EWO%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FAF8F3; --surface:#FFFFFF; --ink:#13241B; --muted:#586A5F; --line:#E4DFD2;
+  --accent:#17603B; --accent-ink:#FFFFFF; --brass:#A9824A; --deep:#0F2A1D; --deep-ink:#EAF1EB; --deep-muted:#A9BDB0;
+  --trace-bg:#0F2A1D; --trace-ink:#D5E4D9; --trace-dim:#8FA99A; --ok:#5FD39A;
+  --serif:"Fraunces",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0B1510;--surface:#111F17;--ink:#EAF1EB;--muted:#9DB3A5;--line:#1E3126;--accent:#6FD3A0;--accent-ink:#08150E;--brass:#C9A56B;--trace-bg:#08130D}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.7 var(--sans);-webkit-font-smoothing:antialiased}
+::selection{background:var(--accent);color:var(--accent-ink)}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-radius:4px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 28px}
+header.nav{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{font:500 20px var(--serif);text-decoration:none;color:var(--ink);letter-spacing:.01em}
+.nav ul{display:flex;gap:30px;list-style:none;margin:0;padding:0}
+.nav ul a{color:var(--muted);text-decoration:none;font-size:12.5px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;position:relative;padding:6px 0}
+.nav ul a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;background:var(--brass);transition:right .3s}
+.nav ul a:hover{color:var(--ink)}.nav ul a:hover::after{right:0}
+.hero{padding:96px 0 88px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:80px;align-items:center}
+.hero .wrap>div{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+.hero .wrap>div+div{animation-delay:.18s}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.role{font:500 12.5px var(--mono);text-transform:uppercase;letter-spacing:.16em;color:var(--accent);margin:0 0 26px}
+.role::before{content:"";display:inline-block;width:36px;height:1px;background:var(--brass);vertical-align:middle;margin-right:14px}
+h1{font:400 clamp(38px,5vw,60px)/1.08 var(--serif);margin:0 0 26px;letter-spacing:-.02em}
+h1 em{font-style:italic;color:var(--accent)}
+.lede{font-size:18.5px;color:var(--muted);max-width:52ch;margin:0 0 34px}
+.cta{display:flex;flex-wrap:wrap;gap:14px}
+.btn{display:inline-block;padding:13px 28px;border-radius:999px;font-weight:500;font-size:15px;letter-spacing:.01em;text-decoration:none;border:1px solid var(--accent);transition:transform .2s,box-shadow .2s,background .2s,color .2s}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.primary:hover{transform:translateY(-2px);box-shadow:0 12px 24px -12px var(--accent)}
+.btn.ghost{color:var(--ink);border-color:var(--ink);background:transparent}
+.btn.ghost:hover{background:var(--ink);color:var(--bg)}
+.facts{display:flex;flex-wrap:wrap;gap:8px 26px;margin:34px 0 0;padding:0;list-style:none;color:var(--muted);font-size:14.5px}
+.facts li::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--brass);margin-right:10px;vertical-align:middle}
+.side{position:relative;max-width:430px;margin-left:auto}
+.side::before{content:"";position:absolute;inset:18px -18px -18px 18px;border:1px solid var(--brass);border-radius:240px 240px 20px 20px}
+.frame{position:relative;z-index:1;border-radius:240px 240px 20px 20px;overflow:hidden;box-shadow:0 36px 60px -34px rgba(15,42,29,.55);background:var(--line)}
+.photo{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 22%}
+.trace{position:relative;z-index:2;width:min(340px,100%);margin:-44px 0 0 -44px;background:var(--trace-bg);color:var(--trace-ink);border-radius:14px;padding:16px 18px;font:400 12.5px/1.75 var(--mono);overflow-x:auto;box-shadow:0 22px 40px -20px rgba(0,0,0,.55)}
+.trace .cap{color:var(--trace-dim);margin-bottom:6px;text-transform:uppercase;letter-spacing:.12em;font-size:11px}
+.trace .ln{white-space:nowrap;opacity:0;animation:ln .4s forwards}
+.trace .ln:nth-of-type(2){animation-delay:.9s}.trace .ln:nth-of-type(3){animation-delay:1.5s}
+.trace .ln:nth-of-type(4){animation-delay:2.1s}.trace .ln:nth-of-type(5){animation-delay:2.7s}
+.trace .d{color:var(--trace-dim)}.trace .ok{color:var(--ok);font-weight:500}
+@keyframes ln{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+section{padding:96px 0;border-top:1px solid var(--line)}
+h2{font:400 36px/1.2 var(--serif);margin:0 0 12px;letter-spacing:-.015em}
+h2::before{content:"";display:block;width:40px;height:2px;background:var(--brass);margin-bottom:22px}
+.sub{color:var(--muted);margin:0 0 48px;max-width:58ch}
+.job{display:grid;grid-template-columns:200px 1fr;gap:12px 44px;padding:32px 0;border-top:1px solid var(--line)}
+.job:first-of-type{border-top:0;padding-top:0}
+.when{font:400 13px var(--mono);color:var(--muted);padding-top:6px;letter-spacing:.04em}
+.job h3{margin:0;font:500 23px/1.3 var(--serif)}
+.org{color:var(--accent);margin:3px 0 14px;font-weight:500;font-size:15.5px}
+.job ul{margin:0;padding-left:20px}.job li{margin:0 0 9px;max-width:72ch}.job li::marker{color:var(--brass)}
+.metric{font-weight:600}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:36px 48px}
+.skills h3{margin:0 0 8px;font:500 12.5px var(--mono);text-transform:uppercase;letter-spacing:.14em;color:var(--accent)}
+.skills p{margin:0;color:var(--muted);font-size:16px}
+.cred{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.cred h2{font-size:28px}
+.cred ul{list-style:none;margin:0;padding:0}
+.cred li{padding:14px 0;border-top:1px solid var(--line)}
+.cred small{display:block;color:var(--muted);font-size:14.5px}
+.contact{background:var(--deep);color:var(--deep-ink);border-top:0}
+.contact h2{color:#fff}.contact .sub{color:var(--deep-muted)}
+.contact .rows{display:grid;gap:16px;margin:8px 0 0;max-width:580px}
+.contact .row{display:flex;justify-content:space-between;gap:16px;border-bottom:1px solid rgba(255,255,255,.16);padding-bottom:14px}
+.contact .row span{color:var(--deep-muted);font:500 12.5px var(--mono);text-transform:uppercase;letter-spacing:.14em;padding-top:4px}
+.contact a{color:#9BE3BD}
+footer{padding:32px 0 48px;color:var(--muted);font-size:13px;letter-spacing:.04em}
+@media (max-width:860px){
+  .hero{padding:52px 0 64px}
+  .hero .wrap,.cred{grid-template-columns:1fr;gap:48px}
+  .job{grid-template-columns:1fr;gap:4px}
+  section{padding:68px 0}
+  .nav ul{gap:16px}.nav ul a{font-size:11px;letter-spacing:.1em}
+  .side{max-width:380px;margin:0 auto 0 0}
+  .trace{margin:20px 0 0}
+  .side::before{inset:14px -12px -14px 14px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .hero .wrap>div,.trace .ln{animation:none;opacity:1}
+}
+@media print{.nav,.trace{display:none}body{background:#fff}.contact{background:#fff;color:#000}.contact h2,.contact .sub,.contact .row span{color:#000}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">Waheed Oladunjoye</a>
+    <nav aria-label="Primary"><ul>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#credentials">Credentials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<main id="top">
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <p class="role">Technical Support Engineer · Payments &amp; Transaction Switching</p>
+      <h1>Keeping payment platforms running <em>when transactions can’t wait.</em></h1>
+      <p class="lede">I’m Waheed. For 6+ years I’ve provided L2/L3 support for enterprise fintech platforms across core banking, wallet and ATM/POS switching. I trace failures through ISO 8583 messages, logs and databases, and work with customers, engineers and vendors until the incident is closed.</p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Get in touch</a>
+        <a class="btn ghost" href="assets/Waheed_Oladunjoye_CV.pdf" download>Download CV (PDF)</a>
+      </div>
+      <ul class="facts">
+        <li>Open to remote and hybrid roles</li>
+        <li>Based in Lagos, Nigeria</li>
+      </ul>
+    </div>
+    <div class="side">
+      <div class="frame"><img class="photo" src="assets/waheed.jpg" width="640" height="800" alt="Portrait of Waheed Oladunjoye"></div>
+      <div class="trace" role="img" aria-label="Illustrative ISO 8583 purchase flow ending in response code 00, approved">
+        <div class="cap">illustrative ISO 8583 purchase flow</div>
+        <div class="ln"><span class="d">POS → switch</span>&nbsp; 0200 purchase request</div>
+        <div class="ln"><span class="d">switch</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; route to issuer node</div>
+        <div class="ln"><span class="d">issuer → switch</span>&nbsp; 0210 response</div>
+        <div class="ln"><span class="d">switch → POS</span>&nbsp; response code <span class="ok">00 approved</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="experience">
+  <div class="wrap">
+    <h2>Experience</h2>
+    <p class="sub">Support engineering across payment switching, settlement, reconciliation and core banking.</p>
+
+    <article class="job">
+      <div class="when">Jun 2023 – Present</div>
+      <div>
+        <h3>Technical Support Engineer</h3>
+        <p class="org">eTranzact International Plc</p>
+        <ul>
+          <li>Provide L2/L3 support for core payment applications, working directly with customers, engineering and vendors to resolve high-priority incidents within SLA.</li>
+          <li>Resolve mission-critical payment-processing issues through log analysis and root-cause investigation, improving uptime and transaction success rates.</li>
+          <li>Monitor switching, settlement, reconciliation and transaction-processing systems with Grafana and Kibana, catching problems before they become outages.</li>
+          <li>Supported database migrations from Sybase to MSSQL, stabilising high-volume processing and improving performance.</li>
+          <li>Run UAT for bank and third-party integrations using APIs and ISO 8583 messaging to validate end-to-end transaction flows.</li>
+          <li>Onboarded banks, merchants and third-party processors onto transaction, settlement and dispute platforms, speeding up partner go-live.</li>
+          <li>Configure and deploy secure application environments, including settlement/dispute servers, reconciliation engines and DR sites.</li>
+          <li>Keep runbooks and operational documentation current to reduce repeat incidents.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="job">
+      <div class="when">Oct 2021 – May 2023</div>
+      <div>
+        <h3>Technical Support Engineer</h3>
+        <p class="org">SterlingPro Business Applications</p>
+        <ul>
+          <li>Configured and supported ATM and transaction switching infrastructure (download configurations, state/screen creation, keybuffer setup, response parameters) for integration with core banking and third-party systems.</li>
+          <li>Monitored transaction flows with Postilion Transaction Manager and Source Node Simulator, isolating failures and <span class="metric">improving transaction success rates by 15%</span>.</li>
+          <li>Traced message paths and interpreted ISO 8583 response codes across indigenous and third-party switching environments, cutting incident resolution time.</li>
+          <li>Deployed and supported fintech applications on IIS, <span class="metric">reducing configuration-related incidents by 20%</span>.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="job">
+      <div class="when">Mar 2020 – May 2021</div>
+      <div>
+        <h3>Technical Support Engineer</h3>
+        <p class="org">Longbridge Technologies Limited</p>
+        <ul>
+          <li>Supported core banking data migration: extracted, validated and transferred data between Oracle databases using complex SQL queries.</li>
+          <li>Deployed and monitored applications on Linux servers over SSH to keep production environments stable and secure.</li>
+          <li>Took part in change and release activities, supporting stable go-lives for digital banking and transaction processing systems.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="job">
+      <div class="when">Oct 2019 – Feb 2020</div>
+      <div>
+        <h3>Technical Support Intern</h3>
+        <p class="org">Longbridge Technologies Limited</p>
+        <ul>
+          <li>Documented procedures in SharePoint, <span class="metric">cutting onboarding time for new support engineers by 40%</span>.</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <h2>Skills</h2>
+    <p class="sub">What I use day to day, and what I’m building toward.</p>
+    <div class="skills">
+      <div><h3>Troubleshooting and RCA</h3><p>Log analysis, ISO 8583 message tracing, root-cause investigation, L2/L3 escalation</p></div>
+      <div><h3>Payments domain</h3><p>Transaction switching, ATM/POS, Postilion suite, settlement and reconciliation</p></div>
+      <div><h3>Incident management</h3><p>ITIL-aligned incident, problem and change management; Jira and ManageEngine; prioritising concurrent incidents against SLAs</p></div>
+      <div><h3>Monitoring</h3><p>Grafana, Prometheus, Kibana/Elastic</p></div>
+      <div><h3>SQL and databases</h3><p>Oracle, MSSQL, Sybase; query-based troubleshooting; data migration and validation</p></div>
+      <div><h3>Operating systems</h3><p>Linux (SSH-based deployment and monitoring), Windows Server (IIS)</p></div>
+      <div><h3>Integration and testing</h3><p>REST APIs, Postman, UAT for bank and third-party integrations</p></div>
+      <div><h3>Containers and web</h3><p>Docker; HTML, CSS and JavaScript (this site runs in a Docker container)</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="credentials">
+  <div class="wrap cred">
+    <div>
+      <h2>Certifications</h2>
+      <ul>
+        <li>Microsoft Azure AI Fundamentals</li>
+        <li>Oracle AI Fundamentals</li>
+        <li>Oracle Generative AI Specialist</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Education</h2>
+      <ul>
+        <li>M.Sc. Chemistry<small>University of Ibadan, Nigeria · 2017 – 2018</small></li>
+        <li>B.Sc. Chemistry<small>University of Ilorin, Nigeria · 2011 – 2015</small></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p class="sub">The quickest way to reach me is email or LinkedIn. I reply within a day or two.</p>
+    <div class="rows">
+      <div class="row"><span>Email</span><a id="mail" href="#contact">Enable JavaScript to see my email, or use LinkedIn</a></div>
+      <div class="row"><span>LinkedIn</span><a href="https://linkedin.com/in/waheedoladunjoye" rel="me noopener" target="_blank">linkedin.com/in/waheedoladunjoye</a></div>
+      <div class="row"><span>Location</span><b>Lagos, Nigeria</b></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">© <span id="yr">2026</span> Waheed Oladunjoye</div></footer>
+
+<script>
+(function(){
+  var u=['oladunjoye.wt','gmail.com'], a=document.getElementById('mail'), addr=u.join('@');
+  a.href='mailto:'+addr+'?subject='+encodeURIComponent('Hello from your website'); a.textContent=addr;
+  document.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
