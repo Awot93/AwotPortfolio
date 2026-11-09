@@ -1,0 +1,31 @@
+Subject: Handover: PayOutlet bank integrations and IMS
+
+Hi Timothy,
+
+Handing these over to you. Here is where each one stands.
+
+1. PayOutlet: Sterling Bank integration
+Status: [live / in progress]
+Open issues: [known errors or pending items]
+Bank contact: [name, email or phone]
+
+2. PayOutlet: UNICAL integration
+Status: [live / in progress]
+Open issues: [known errors or pending items]
+Contact: [name, email or phone]
+
+3. IMS
+Status: [what it is running on, current state]
+Open issues: [known errors or pending items]
+Contact: [name, email or phone]
+
+4. PayOutlet: GTBank integration (pilot stage)
+Status: Pilot. [what has been tested, what is still pending]
+Open issues: [known errors or pending items]
+GTBank contact: [name, email or phone]
+
+For anything not covered here, check the PayOutlet central logs first, then escalate to the PayOutlet developers with the logs attached.
+
+Call me if anything is unclear.
+
+Waheed
